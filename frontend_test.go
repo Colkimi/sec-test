@@ -11,7 +11,7 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 )
-
+//main function
 func main() {
 	fmt.Println("Security Testing Tool (Educational Purposes Only)")
 	fmt.Println("1. Test for XSS vulnerability")
