@@ -69,6 +69,7 @@ func testXSS() {
 	}
 }
 
+//declare the function
 func testSQLInjection() {
 	fmt.Println("\nSQL Injection Testing Module")
 	fmt.Print("Enter database connection string (e.g., user:pass@tcp(127.0.0.1:3306)/dbname): ")
