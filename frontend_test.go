@@ -22,6 +22,7 @@ func main() {
 	option, _ := reader.ReadString('\n')
 	option = strings.TrimSpace(option)
 
+	//loop for vulns test
 	switch option {
 	case "1":
 		testXSS()
