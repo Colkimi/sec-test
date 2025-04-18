@@ -94,6 +94,7 @@ func testSQLInjection() {
 		}
 		defer db.Close()
 
+		//do a err catch on db query
 		rows, err := db.Query(injectedQuery)
 		if err != nil {
 			fmt.Printf("Error: %v - Possible SQL injection protection in place\n", err)
