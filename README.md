@@ -16,8 +16,8 @@
 
 #### Limitations:
 
-...> Very basic detection methods
+> Very basic detection methods
 
-....> Doesn't cover all XSS or SQLi vectors
+> Doesn't cover all XSS or SQLi vectors
 
-.....> No advanced exploitation techniques
+> No advanced exploitation techniques
