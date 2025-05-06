@@ -13,7 +13,6 @@ import (
 )
 //main function
 func main() {
-	fmt.Println("Security Testing Tool (Educational Purposes Only)")
 	fmt.Println("1. Test for XSS vulnerability")
 	fmt.Println("2. Test for SQL injection vulnerability")
 	fmt.Print("Select an option: ")
